@@ -2,6 +2,8 @@
 
 This app demonstrates how to configure a Phoenix app for Dokku deployment.
 
+Find the companion blog post here: https://medium.com/@jonlunsford/elixir-up-and-running-with-dokku-on-digital-ocean-ce332d64224c
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
