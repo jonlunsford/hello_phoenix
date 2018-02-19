@@ -59,6 +59,10 @@ config :logger, level: :info
 #
 #     config :hello_phoenix, HelloPhoenixWeb.Endpoint, server: true
 #
+config :hello_phoenix, HelloPhoenix.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  url: System.get_env("DATABASE_URL"),
+  pool_size: 20
 
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.
